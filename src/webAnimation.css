@@ -1,0 +1,45 @@
+.wave-container {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-bottom: -7px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #0cafff;
+    color: white;
+    vertical-align: middle;
+  }
+  
+  .waves {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    min-height: 100px;
+    max-height: 150px;
+  }
+  
+  .parallax > use {
+    animation: move-forever 4s linear infinite;
+    will-change: transform;
+  }
+  
+  @keyframes move-forever {
+    0% {
+      transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+      transform: translate3d(85px, 0, 0);
+    }
+  }
+  
+  .wave-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5rem;
+    z-index: 10;
+  }
+  
