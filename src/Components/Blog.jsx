@@ -6,7 +6,7 @@ const Blog = ({ item, key }) => {
     <div className="w-[360px] shadow-lg rounded relative" key={key}>
       <div className=" absolute latest rounded left-[45%]">Latest</div>
       <div>
-        <img src={item.image} className="w-full h-[240px] max-sm:bg-contain" />
+        <img src={item.image} className="w-full h-[270px] max-sm:bg-contain" />
       </div>
       <div className=" overflow-y-scroll custom-scrollbar h-[250px] p-5 ">
         <h1 className="text-center  heading ">{item.divtitle}</h1>
