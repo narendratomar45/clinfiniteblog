@@ -3534,7 +3534,8 @@ const data = [
     image: cardimg44,
     divtitle: " Biometric Services in Security",
     title:
-      "Identification, security, and data protection have all undergone radical transformation thanks to biometric services. Biometric technologies, as opposed to more conventional techniques like passwords or ID cards, rely on distinct biological traits such as voiceprints, iris patterns, fingerprints, and facial recognition. By making sure that access and identification procedures are more precise and challenging to hack, these systems provide improved security. This article examines the several kinds of biometric services, along with their uses, difficulties, and prospects for biometric technology.",
+      " Biometric Services in Security",
+      introduction:"Identification, security, and data protection have all undergone radical transformation thanks to biometric services. Biometric technologies, as opposed to more conventional techniques like passwords or ID cards, rely on distinct biological traits such as voiceprints, iris patterns, fingerprints, and facial recognition. By making sure that access and identification procedures are more precise and challenging to hack, these systems provide improved security. This article examines the several kinds of biometric services, along with their uses, difficulties, and prospects for biometric technology.",
     heading1: {
       mainheading1: "What Are Biometric Services?",
       mainheading1Content:
