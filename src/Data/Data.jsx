@@ -8870,7 +8870,7 @@ const data = [
   {
     id: 115,
     image: cardimg115,
-    divtitle: "",
+    divtitle: "Medical Writing Services",
     title: "Medical Writing Services",
     introduction:
       "Medical writing services have become an integral part of the healthcare and pharmaceutical industries. These services encompass the creation of scientifically accurate, clear, and compliant documents, critical for communicating research findings, clinical trial data, regulatory requirements, and medical education materials. Whether for regulatory submissions, marketing purposes, or patient education, medical writing plays a crucial role. This article explores various aspects of medical writing services, including their types, the process involved, and their significance in the medical field.",

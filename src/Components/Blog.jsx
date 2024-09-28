@@ -9,7 +9,8 @@ const Blog = ({ item, key }) => {
         <img src={item.image} className="w-full h-[270px] max-sm:bg-contain" />
       </div>
       <div className=" overflow-y-scroll custom-scrollbar h-[250px] p-5 ">
-        <h1 className="text-center  heading ">{item.divtitle}</h1>
+        <h1>{item.id}</h1>
+        <h1 className="text-center   heading ">{item.divtitle}</h1>
         <p className=" text-start textColor ">{item.introduction}</p>
         <Link to={`/${item.id}`}>
           <button className="btn p-2 rounded my-3">Read Blog</button>
