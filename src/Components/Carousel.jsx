@@ -80,8 +80,8 @@ const Carousel = () => {
             <div className="font-bold text-6xl font-sans text-center text-white my-5 max-md:my-2 max-md:text-center max-md:text-2xl">
               <p>{slide.descrip}</p>
             </div>
-            <div className="flex justify-center gap-8 my-5 max-md:my-2">
-              <button className="p-3 rounded text-white cursor-pointer hover:bg-blue-800 transition-all w-[185px] max-md:p-1 max-md:w-[120px]">
+            <div className="flex justify-center gap-8 my-5 max-md:my-2 ">
+              <button className="p-3 rounded text-white cursor-pointer bg-blue-800  hover:bg-blue-950 transition-all w-[185px] max-md:p-1 max-md:w-[120px]">
                 Learn More
               </button>
               <button className="border border-white p-3 rounded w-[185px] text-white hover:bg-white hover:text-black transition-all max-md:p-1 max-md:w-[120px]">
