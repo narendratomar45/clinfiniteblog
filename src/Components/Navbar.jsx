@@ -13,7 +13,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 0) {
       setNavbarBg(true);
     } else {
       setNavbarBg(false);

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 const Blog = ({ item, key }) => {
   return (
-    <div className="w-[360px] shadow-lg rounded relative" key={key}>
+    <div className="w-[370px] shadow-lg rounded relative" key={key}>
       <div className=" absolute latest rounded left-[45%]">Latest</div>
       <div>
-        <img src={item.image} className="w-full h-[270px] max-sm:bg-contain" />
+        <img src={item.image} className="w-full h-[280px]  max-sm:bg-contain" />
       </div>
       <div className=" overflow-y-scroll custom-scrollbar h-[250px] p-5 ">
         <h1>{item.id}</h1>
